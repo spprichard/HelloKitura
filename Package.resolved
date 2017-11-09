@@ -92,15 +92,6 @@
         }
       },
       {
-        "package": "Kitura-net",
-        "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
-        "state": {
-          "branch": null,
-          "revision": "c29812e62855d34d32305e1dc06d2f1df5224df7",
-          "version": "1.7.19"
-        }
-      },
-      {
         "package": "Kitura-TemplateEngine",
         "repositoryURL": "https://github.com/IBM-Swift/Kitura-TemplateEngine.git",
         "state": {
@@ -116,6 +107,15 @@
           "branch": null,
           "revision": "312fd9a6f126be1befd8373a263669491b373188",
           "version": "0.9.1"
+        }
+      },
+      {
+        "package": "Kitura-net",
+        "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
+        "state": {
+          "branch": null,
+          "revision": "c29812e62855d34d32305e1dc06d2f1df5224df7",
+          "version": "1.7.19"
         }
       },
       {
@@ -146,21 +146,21 @@
         }
       },
       {
-        "package": "omr-agentcore",
-        "repositoryURL": "https://github.com/RuntimeTools/omr-agentcore",
-        "state": {
-          "branch": null,
-          "revision": "5a2361ba1f005596a2bfa28de76ed4acf1e71c33",
-          "version": "3.2.4-swift4"
-        }
-      },
-      {
         "package": "OpenSSL",
         "repositoryURL": "https://github.com/IBM-Swift/OpenSSL.git",
         "state": {
           "branch": null,
           "revision": "95c405c18a071a1c13616e984ba1b3c6091ca6ca",
           "version": "0.3.7"
+        }
+      },
+      {
+        "package": "SSLService",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
+        "state": {
+          "branch": null,
+          "revision": "7adf7cacc447d447df5dcc3058cabd402177c5aa",
+          "version": "0.12.64"
         }
       },
       {
@@ -182,15 +182,6 @@
         }
       },
       {
-        "package": "SSLService",
-        "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
-        "state": {
-          "branch": null,
-          "revision": "7adf7cacc447d447df5dcc3058cabd402177c5aa",
-          "version": "0.12.64"
-        }
-      },
-      {
         "package": "SwiftMetrics",
         "repositoryURL": "https://github.com/RuntimeTools/SwiftMetrics.git",
         "state": {
@@ -206,6 +197,15 @@
           "branch": null,
           "revision": "1190845cf7d25a5c8ea7653fe03dcdd39a082056",
           "version": "17.0.0"
+        }
+      },
+      {
+        "package": "omr-agentcore",
+        "repositoryURL": "https://github.com/RuntimeTools/omr-agentcore",
+        "state": {
+          "branch": null,
+          "revision": "5a2361ba1f005596a2bfa28de76ed4acf1e71c33",
+          "version": "3.2.4-swift4"
         }
       }
     ]

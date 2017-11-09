@@ -4,5 +4,7 @@
 /Packages
 /config.json
 /spec.json
-./config/localdev-config.jso
-HelloKitura.xcodeproj/*
+./config/localdev-config.json
+HelloKitura.xcodeproj/project*
+HelloKitura.xcodeproj/xcuserdata/stevenprichard.xcuserdatad/xcschemes/xcschememanagement.plist
+HelloKitura.xcodeproj/project.xcworkspace/xcuserdata/stevenprichard.xcuserdatad/UserInterfaceState.xcuserstate

@@ -6,6 +6,7 @@ import CloudEnvironment
 import KituraContracts
 import Health
 
+
 public let projectPath = ConfigurationManager.BasePath.project.path
 public let health = Health()
 
@@ -22,6 +23,7 @@ public class App {
 
         // Endpoints
         initializeHealthRoutes(app: self)
+    
         // For statuc things
         router.all("/static", middleware: StaticFileServer())
         
@@ -31,12 +33,7 @@ public class App {
             next()
         }
         
-        router.get("/name/:name"){ request, response, _ in
-            let name = request.parameters["name"] ?? "IDK Your name"
-            try response.send("Hello \(name.capitalized)").end()
-
-        }
-        
+        router.get("/name/:name", handler: sayHelloHandler)
         
     }
 
