@@ -25,7 +25,7 @@ public class App {
         
         router.get("/"){
             request, response, next in
-            response.send("Hello Kitura")
+            response.send("Hello Kitura!!")
             next()
         }
     }
