@@ -28,6 +28,8 @@ public class App {
             response.send("Hello Kitura!!")
             next()
         }
+        
+        router.all("/static", middleware: StaticFileServer())
     }
 
     public func run() throws {
