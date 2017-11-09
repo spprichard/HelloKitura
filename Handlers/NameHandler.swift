@@ -1,10 +1,8 @@
-import Kitura
 import LoggerAPI
+import Kitura
 
-func sayHelloHandler(request: RouterRequest, response: RouterResponse, next: ()->Void) -> Void{
-    Log.info("Say Hello Handler")
-    let name = request.parameters["name"] ?? "IDK Your name"
-    try response.send("Hello \(name.capitalized)")
+func sayHelloHandler(request: RouterRequest, response: RouterResponse, next: () -> Void) -> Void {
+    let name = request.parameters["name"] ?? "IDK what your name is..."
+    response.send("Hello \(name.capitalized)")
     next()
 }
-
