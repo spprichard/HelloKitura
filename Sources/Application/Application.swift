@@ -22,6 +22,8 @@ public class App {
 
         // Endpoints
         initializeHealthRoutes(app: self)
+        // For statuc things
+        router.all("/static", middleware: StaticFileServer())
         
         router.get("/"){
             request, response, next in
@@ -29,7 +31,13 @@ public class App {
             next()
         }
         
-        router.all("/static", middleware: StaticFileServer())
+        router.get("/name/:name"){ request, response, _ in
+            let name = request.parameters["name"] ?? "IDK Your name"
+            try response.send("Hello \(name.capitalized)").end()
+
+        }
+        
+        
     }
 
     public func run() throws {
